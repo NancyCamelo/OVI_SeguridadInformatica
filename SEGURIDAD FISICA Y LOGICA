@@ -2,7 +2,9 @@ Objetivo de la sección
 Reconocer las Amenazas, Vulnerabilidades y Controles que se pueden presentar a nivel de Hardware y de Software.
 Texto de Introducción: Como usuarios es importante reconocer cuales son las amenazas, vulnerabilidades y controles que se pueden presentar a nivel de Hardware y Software con el fin de no caer en errores que pueden poner en peligro nuestros datos, claves, información confidencial y toda aquella información que es confidencial y que puede ser utilizada en fines no beneficiosos.
 A continuación, se presentará un video explicativo de la Seguridad Física y Lógica el cual aclarara muchos de los interrogantes que diariamente nos hacemos  como usuarios.
-Video a Insertar. https://www.youtube.com/watch?v=0oHE1vj7muM
+Video a Insertar.
+https://www.youtube.com/watch?v=2gIj3hAxUGc&t=10s
+https://www.youtube.com/watch?v=XhWev-1szy8
 Seguridad Física
 La Seguridad Física consiste en la "aplicación de barreras físicas y procedimientos de control, como medidas de prevención y contramedidas ante amenazas a los recursos e información confidencial. Se refiere a los controles y mecanismos de seguridad dentro y alrededor del equipo de Cómputo así como los medios de acceso remoto al y desde el mismo; implementados para proteger el hardware y medios de almacenamiento de datos.
 Tipos de Desastres
@@ -28,4 +30,42 @@ Sabotaje:El peligro más temido en los centros de procesamiento de datos, es el 
 Físicamente, los imanes son las herramientas a las que se recurre, ya que con una ligera pasada la información desaparece, aunque las cintas estén almacenadas en el interior de su funda de protección. Una habitación llena de cintas puede ser destruida en pocos minutos y los centros de procesamiento de datos pueden ser destruidos sin entrar en ellos. 
 Además, suciedad, partículas de metal o gasolina pueden ser introducidos por los conductos de aire acondicionado. Las líneas de comunicaciones y eléctricas pueden ser cortadas, etc.
 Control de Accesos:El control de acceso no sólo requiere la capacidad de identificación, permitir o negar acceso basado en restricciones de tiempo.
-
+Seguridad Lógica
+La Seguridad Lógica consiste en la "aplicación de barreras y procedimientos que resguarden el acceso a los datos y sólo se permita acceder a ellos a las personas autorizadas para hacerlo."
+Los objetivos que se plantean serán:
+1.	Restringir el acceso a los programas y archivos.
+2.	Asegurar que los operadores puedan trabajar sin una supervisión minuciosa y no puedan modificar los programas ni los archivos que no correspondan.
+3.	Asegurar que se estén utilizados los datos, archivos y programas correctos en y por el procedimiento correcto.
+4.	Que la información transmitida sea recibida sólo por el destinatario al cual ha sido enviada y no a otro.
+5.	Que la información recibida sea la misma que ha sido transmitida.
+6.	Que existan sistemas alternativos secundarios de transmisión entre diferentes puntos.
+7.	Que se disponga de pasos alternativos de emergencia para la transmisión de información.
+Controles de Acceso
+Estos controles pueden implementarse en el Sistema Operativo, sobre los sistemas de aplicación, en bases de datos, en un paquete específico de seguridad o en cualquier otro utilitario. Constituyen una importante ayuda para proteger al sistema operativo de la red, al sistema de aplicación y demás software de la utilización o modificaciones no autorizadas; para mantener la integridad de la información (restringiendo la cantidad de usuarios y procesos con acceso permitido) y para resguardar la información confidencial de accesos no autorizados.
+Los siguientes estándares de seguridad que se refieren a los requisitos mínimos de seguridad en cualquier sistema:
+•	Identificación y Autentificación Roles
+•	Transacciones
+•	Limitaciones a los Servicios.
+•	Modalidad de Acceso Ubicación y Horario.
+•	Control de Acceso Interno 
+•	Control de Acceso Externo Administración 
+Niveles de Seguridad Informática
+El estándar de niveles de seguridad más utilizado internacionalmente es el TCSEC Orange Book(2), desarrollado en 1983 de acuerdo a las normas de seguridad en computadoras del Departamento de Defensa de los Estados Unidos.
+Los niveles describen diferentes tipos de seguridad del Sistema Operativo y se enumeran desde el mínimo grado de seguridad al máximo.
+Estos niveles han sido la base de desarrollo de estándares europeos (ITSEC/ITSEM) y luego internacionales (ISO/IEC).
+Cabe aclarar que cada nivel requiere todos los niveles definidos anteriormente: así el subnivel B2 abarca los subniveles B1, C2, C1 y el D.
+•	Nivel D 
+Este nivel contiene sólo una división y está reservada para sistemas que han sido evaluados y no cumplen con ninguna especificación de seguridad.
+•	Nivel C1: Protección Discrecional
+Se requiere identificación de usuarios que permite el acceso a distinta información. Cada usuario puede manejar su información privada y se hace la distinción entre los usuarios el administrador del sistema, quien tiene control total de acceso.
+•	Niivel C2: Protección de Acceso Controlado 
+Este subnivel fue diseñado para solucionar las debilidades del C1. 
+•	Nivel B1: Seguridad Etiquetada
+Este subnivel, es el primero de los tres con que cuenta el nivel B. Soporta seguridad multinivel, como la secreta y ultrasecreta. Se establece que el dueño del archivo no puede modificar los permisos de un objeto que está bajo control de acceso obligatorio.
+A cada objeto del sistema (usuario, dato, etc.) se le asigna una etiqueta, con un nivel de seguridad jerárquico (alto secreto, secreto, reservado, etc.) y con unas categorías (contabilidad, nóminas, ventas, etc.).
+•	Nivel B2: Protección Estructurada
+Requiere que se etiquete cada objeto de nivel superior por ser padre de un objeto
+•	Nivel B3: Dominios de Seguridad 
+Refuerza a los dominios con la instalación de hardware: por ejemplo el hardware de administración de memoria se usa para proteger el dominio de seguridad de acceso no autorizado a la modificación de objetos de diferentes dominios de seguridad.
+•	Nivel A: Protección Verificada
+Es el nivel más elevado, incluye un proceso de diseño, control y verificación, mediante métodos formales (matemáticos) para asegurar todos los procesos que realiza un usuario sobre el sistema.
